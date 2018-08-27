@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="./css/materialize.min.css" rel="stylesheet" type="text/css">
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script type="text/javascript" src="./js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="./js/materialize.min.js"></script>
+        <script type="text/javascript" src="./js/app.js"></script>
+
+        </script>
+        <title>Mcet</title>
+    </head>
+    <body>
+	<body background="red">
+        <header>
+          <nav class="transparent">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo left"><i class="material-icons"></i>Mcet</a>
+              <ul class="right hide-on-small-and-down">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="digital.html">DIGITAL</a></li>
+                  <li ><a href="signup.html">LENDING</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+              </ul>
+              
+            <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up right"><i class="material-icons">more_vert</i></a>
+            </div>
+          </nav>
+        </header>
+        <section class="account navy">
+            <div class="row">
+                <div class="container">
+                    <div class="center">
+                        <div class="col m6 welcome">
+                            <h2> TAKE BOOKS</h2>
+                            <h5> Return in 12 days</h5>
+                        </div>
+                        <div class="col m6">
+                            <form class="" action="https://ide50-manojravichandran.cs50.io:8080/lend.php" method="post">
+                                <div class="col s12">
+                                    <h5>LENDING</h5>
+                                </div>
+                                <div class="col s12">
+                                    <div class="container">
+									
+                                        <div class="input-field">
+                                            <input type="text" name="SID" placeholder="YOUR ID">
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="text" name="NAME" placeholder="YOUR NAME">
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="TEXT" name="BID" placeholder="BOOK ID">
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="text" name="BNAME" placeholder="BOOK name">
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="TEXT" name="DATE" placeholder="TODAY'S DATE">
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="submit" name="submit" value="submit" class="btn">
+                                        </div>
+                                    </div>
+								
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+	
+		<form class="" action="https://ide50-manojravichandran.cs50.io:8080/lendall.php" method="post">
+                                <div class="col s12">
+                                    <h5>LENDED books</h5>
+                                </div>
+                                <div class="col s12">
+                                    <div class="container">
+									<br>
+                                        <div class="input-field">
+                                            <input type="submit" name="submit" value="submit" class="btn">
+                                        </div>
+                                    </div>
+								
+                                </div>
+                            </form>
+		
+		<form class="" action="https://ide50-manojravichandran.cs50.io:8080/lendin.php" method="post">
+                                <div class="col s12">
+                                    <h5>student ID</h5>
+                                </div>
+                                <div class="col s12">
+                                    <div class="container">
+									<br>
+									<div class="input-field">
+                                            <input type="text" name="SID" placeholder="YOUR ID">
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="submit" name="submit" value="submit" class="btn">
+                                        </div>
+                                    </div>
+								
+                                </div>
+                            </form>
+    </body>
+</html>
